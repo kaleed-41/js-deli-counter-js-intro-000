@@ -23,5 +23,6 @@ function currentLine(otherDeli){
       array.push(`${i+1}. ${otherDeli[i]}`);
     }
   }
+  //return `The line is currently: ${i+1}. ${otherDeli[0]}`
   return `The line is currently: ${array}`;
 }
